@@ -83,11 +83,13 @@ a {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  font-size: 1.1vw;
+  font-size: 1.2vw;
+  line-height: 1.5;
+
 }
 
 .main-text {
-  width: 21vw;
+  width: 23vw;
   border-left: 0.3vw solid black;
   padding-left: 1.2vw;
   margin-top: 14%;
@@ -96,8 +98,8 @@ a {
 
 .right-text {
   color: white;
-  border-left: 0.25vw solid white;
-  width: 23vw;
+  border-left: 0.3vw solid white;
+  width: 25vw;
 
 }
 
@@ -109,7 +111,9 @@ a {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  font-size: 1.1vw;
+  font-size: 1.2vw;
+  line-height: 1.5;
+
 }
 
 .piano-2-image {
@@ -137,4 +141,33 @@ img.arrow {
 .section-3-image {
   width: 100%;
   height: auto;
+}
+
+.section-3-title {
+  /* position: absolute; */
+  color: white;
+  font-size: 3.5vw;
+  width: 42vw;
+  border-left: 0.4vw solid #630000;
+  padding-left: 1vw;
+}
+
+.section-3-text {
+  /* position: absolute; */
+  color: white;
+  font-size: 1.5vw;
+  margin-top: 1%;
+  width: 42vw;
+  line-height: 1.6;
+
+}
+
+.position-text {
+  width: 100%;
+  margin-top: 19%;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
 }
