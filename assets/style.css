@@ -5,11 +5,6 @@
   /* font-family: 'Cinzel Decorative', cursive; */
 }
 
-/* body {
-  margin: 0px;
-  display: initial;
-} */
-
 header {
   height: auto;
   background-color: black;
@@ -195,7 +190,7 @@ img.arrow {
   line-height: 1.45;
   color: white;
   font-size: 2.1vw;
-  padding: 5vw;
+  padding: 5.2vw;
   margin-top: 7%;
 }
 
@@ -252,5 +247,108 @@ img.arrow {
 }
 
 .video {
-  width: 60%;
+  width: 100%;
+}
+
+.section-5-container {
+  width: 100%;
+  height: auto;
+  color: white;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.video-text-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 4% 5vw;
+
+}
+
+.video-text {
+  width: 50%;
+  height: auto;
+  font-size: 3.5vw;
+  color: black;
+  text-align: right;
+  border-right: 0.4vw solid black;
+  padding-right: 2.5vw;
+}
+
+
+
+
+/*split-view styling */
+.hide-overflow {
+  line-height: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+}
+
+.left-panel {
+  height: auto;
+  width: 100vw;
+  position: relative;
+  user-select: none;
+}
+
+.bg-left-panel {
+  width: 100%;
+  height: auto;
+  user-select: none;
+}
+
+.right_panel {
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  right: 0;
+  padding-left: 4px;
+  background-image: url('images/fluegel_O_White_03.png');
+  background-repeat: no-repeat;
+  background-size: 100vw;
+  background-position: right;
+  align-items: center;
+  display: flex;
+}
+
+
+.right_panel::after, .right_panel::before {
+  content: " ";
+  background-color: #00215B;
+  position: absolute;
+  left: 0;
+  width: 3px;
+  height: 100%;
+  cursor: ew-resize;
+  bottom: 0;
+}
+
+.right_panel::before{
+  background-color: transparent;
+  z-index: 6;
+  cursor: ew-resize;
+
+}
+
+.right_panel p {
+  right: calc(100% - 70px);
+  bottom: 14%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: ew-resize;
+  background-color: #00215B;
+  position: absolute;
+  width: 140px;
+  height: 48px;
+  color: white;
+  z-index: 1;
+  font-size: 20px;
+  padding-bottom: 0px;
+  user-select: none;
+
 }
