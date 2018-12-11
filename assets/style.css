@@ -250,3 +250,7 @@ img.arrow {
   margin-left: 16vw;
   text-shadow: 3px 0px 5px black;
 }
+
+.video {
+  width: 60%;
+}
