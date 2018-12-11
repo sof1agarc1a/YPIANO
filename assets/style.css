@@ -303,11 +303,11 @@ img.arrow {
 
 .right_panel {
   position: absolute;
-  width: 40%;
+  width: 31.4%;
   height: 100%;
   right: 0;
   padding-left: 4px;
-  background-image: url('images/Fluegel_O_White_03.png');
+  background-image: url('images/fluegel_O_White_03.png');
   background-repeat: no-repeat;
   background-size: 100vw;
   background-position: right;
@@ -318,10 +318,10 @@ img.arrow {
 
 .right_panel::after, .right_panel::before {
   content: " ";
-  background-color: #00215B;
+  background-color: white;
   position: absolute;
   left: 0;
-  width: 3px;
+  width: 4px;
   height: 100%;
   cursor: ew-resize;
   bottom: 0;
@@ -334,21 +334,29 @@ img.arrow {
 
 }
 
-.right_panel p {
-  right: calc(100% - 70px);
-  bottom: 14%;
+.right_panel img {
+  right: calc(100% - 2.4vw);
+  bottom: 65%;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: ew-resize;
-  background-color: #00215B;
+  background-color: rgba(255, 255, 255, 0.4);
   position: absolute;
-  width: 140px;
-  height: 48px;
+  width: 4.8vw;
+  height: 6%;
   color: white;
   z-index: 1;
   font-size: 20px;
   padding-bottom: 0px;
   user-select: none;
-
+  padding: 0.6vw;
+  border: 0.2vw solid white;
+  box-shadow: 0px 0px 2px black;
 }
+
+/* .wrapper {
+  width: 100%;
+  height: auto;
+  background-color: black;
+} */
