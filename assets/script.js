@@ -20,3 +20,16 @@ panel.addEventListener("mousedown", function(e){
 document.addEventListener("mouseup", function(){
   document.removeEventListener("mousemove", resize);
 });
+
+
+const menuToggle = document.querySelector(".menu-container");
+const headerLogos = document.querySelector(".menu-toggle");
+
+
+menuToggle.addEventListener('click', () => {
+ menuTogglers();
+
+ headerLogos.forEach(headerLogo => {
+   headerLogo.classList.toggle('logo_display');
+ });
+});
