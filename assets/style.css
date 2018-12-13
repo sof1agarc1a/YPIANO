@@ -310,7 +310,7 @@ img.arrow {
   height: 100%;
   right: 0;
   padding-left: 4px;
-  background-image: url('images/Whitepiano.png');
+  background-image: url('images/whitepiano.png');
   background-repeat: no-repeat;
   background-size: 100vw;
   background-position: right;
@@ -706,7 +706,7 @@ footer {
 
   .right_panel {
     width: 37%;
-    background-image: url('images/Whitepiano_ss.png');
+    background-image: url('images/whitepiano_ss.png');
   }
 
   .right_panel::after, .right_panel::before {
