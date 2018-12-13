@@ -22,14 +22,12 @@ document.addEventListener("mouseup", function(){
 });
 
 
-const menuToggle = document.querySelector(".menu-container");
-const headerLogos = document.querySelector(".menu-toggle");
 
+const hamburgerIcon = document.querySelector(".hamburger-icon");
+const hamburgerMenu = document.querySelector(".nav-ist");
+const nav = document.querySelector(".desktop-nav");
 
-menuToggle.addEventListener('click', () => {
- menuTogglers();
-
- headerLogos.forEach(headerLogo => {
-   headerLogo.classList.toggle('logo_display');
- });
+hamburgerIcon.addEventListener("click", () => {
+    hamburgerMenu.classList.toggle("nav-ist__visible");
+    hamburgerIcon.classList.toggle("transform");
 });
